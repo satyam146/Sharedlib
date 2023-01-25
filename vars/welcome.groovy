@@ -1,10 +1,10 @@
 def buildFunction(){
-    stage('Build') {
-        steps {         
+//     stage('Build') {
+//         steps {         
             sh ''' 
             mvn package '''
-        }
-    }
+//         }
+//     }
 }
             
 //          post {
