@@ -1,3 +1,3 @@
 def call(){
-  mvn package
+ sh "mvn package"
     }
