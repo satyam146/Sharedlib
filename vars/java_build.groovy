@@ -1,4 +1,4 @@
-def Deploy(){
+def call(){
  deploy adapters: 
   [tomcat9(credentialsId: 'tomcat',
    path: '',
