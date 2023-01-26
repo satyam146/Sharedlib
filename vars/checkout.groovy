@@ -1,3 +1,3 @@
 def call(Map stageParams){
-git branch: 'stageParams.branch', credentialsId: 'stageParams.id', url: 'stageParams.url'
+git branch: 'master', credentialsId: 'githublogin', url: 'git@github.com:satyam146/Jenkins2.git'
 }
