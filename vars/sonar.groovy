@@ -4,5 +4,4 @@ def call(){
                    -Dsonar.projectVersion=1.0 \
                    -Dsonar.sources=src/ \
                    -Dsonar.java.binaries=/var/lib/jenkins/workspace/CI-CD/target/test-classes/com/example/SpringBoot1_App \
-                 // -Dsonar.junit.reportsPath=/var/lib/jenkins/workspace/Test/target/surefire-reports/ '''
-}
+               }
