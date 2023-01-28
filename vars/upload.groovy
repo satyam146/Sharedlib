@@ -6,7 +6,7 @@ def call(){
                             "files": [
                                     {
                                         "pattern": "/var/lib/jenkins/workspace/Test/target/*.war",
-                                        "target": "demo/",
+                                        "target": "demo/"
                                       
                                     }
                                 ]
