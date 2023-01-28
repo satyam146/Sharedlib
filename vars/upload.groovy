@@ -12,6 +12,6 @@ def call(){
                                 ]
                             }"""
     buildName: '${env.BUILD_NUMBER}',
-    buildNumber: '${env.BUILD_TIMESTAMP}
+    buildNumber: '${env.BUILD_TIMESTAMP}'
                   )
 }
