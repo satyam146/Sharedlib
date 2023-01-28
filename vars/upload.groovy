@@ -7,7 +7,7 @@ def call(){
                                     {
                                         "pattern": "/var/lib/jenkins/workspace/Test/target/*.war",
                                         "target": "demo/",
-                                        "version": "${env.BUILD_TIMESTAMP}"
+                                        "sortOrder": "${env.BUILD_TIMESTAMP}"
                                     }
                                 ]
                             }"""
