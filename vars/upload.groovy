@@ -5,7 +5,7 @@ def call(){
                     spec: """{
                             "files": [
                                     {
-                                        "pattern": "/var/lib/jenkins/workspace/Test/target/*.war",
+                                        "pattern": "/var/lib/jenkins/workspace/CI-CD/target/*.war",
                                         "target": "demo/"
                                       
                                     }
