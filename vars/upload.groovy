@@ -7,7 +7,7 @@ def call(){
                                     {
                                         "pattern": "/var/lib/jenkins/workspace/Test/target/*.war",
                                         "target": "demo/",
-                                        "buildNumber": "env.BUILD_NUMBER"
+                                        "build": "env.BUILD_NUMBER"
                                     }
                                 ]
                             }"""
