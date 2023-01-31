@@ -3,7 +3,7 @@ def call(){
   [tomcat9(credentialsId: 'tomcat',
  
    url: 'http://3.109.183.122')],
-   contextPath: 'test',
+   contextPath: 'demo',
    onFailure: false,
    war: '**/target/*.war' 
 
